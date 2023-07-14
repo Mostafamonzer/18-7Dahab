@@ -1,0 +1,467 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+   /* height: 5000px; */
+  
+}
+
+/* ---------------------container header----------------------------------- */
+.container-header{
+   width: 95%;
+   margin-left: 2.5%;
+   overflow: auto;
+
+}
+
+.header-img{
+   width: 250px;
+   height: 100px;
+   float: left;
+ 
+}
+
+ul{
+   margin-left: 25%;
+   margin-top: 30px;
+}
+.ul-list li {
+   display: inline;
+   margin-left: 20px;
+   font-size: 25px;
+ 
+}
+.ul-list a{
+   text-decoration: none;
+   color: gray ;
+   text-align: center;
+}
+
+.ul-list a:hover{
+   border: 1px solid brown;
+   color: brown;
+   padding-left: 4px;
+}
+
+
+
+
+.table-list{
+   overflow: auto;
+   margin-top: 30px;
+   position: absolute;
+   background-color: rgb(215, 215, 215);
+ 
+   top:29px;
+   left:  27.5%;;  
+    z-index:1; 
+    transform: scale(0);   
+    width: 300px;
+    border: 1px solid gray;
+    color: rgb(223, 123, 24);
+   
+}
+
+.home-list:hover .table-list{
+   transform: scale(1);
+}
+
+table {
+   width:  100%;
+   text-align: center;
+
+}
+.list-rest{
+   float: right;
+   margin-top: -20px; 
+   font-size: 25px;
+   margin-right: 10px; 
+   color: gray; 
+}
+
+.list-rest a {
+   margin-right: 10px;
+}
+
+/* -------------------Sec 1 Container Elevation------------------------- */
+
+.container-elevation{
+   width: 95%;
+   margin-left: 2.5%;
+   position: relative; 
+  
+}
+
+.img-elevation{
+   margin-top: 20px;
+   position: absolute;
+   width: 100%;
+}
+
+.img-elevation11{
+   width: 100%;
+   height: 500px;
+}
+
+.elevation-parag{
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 100px;
+   color: aliceblue;
+   font-size: 40px;
+   font-weight: bold;
+   letter-spacing: 8px;
+}
+.eva-par2{
+   margin-left: 90px;
+}
+
+.button-elevation{
+   position: absolute;
+   margin-top: 320px;
+   margin-left: 180px;
+   color: aliceblue;
+   font-size: 30px;
+
+}
+
+.btn-elevation{
+   width: 120px;
+   height: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 8px;
+}
+
+.btn-elevation:hover{
+   background-color: blue;
+   transform:scale(1.1 ,1.1);
+}
+
+/* -----------------------catogary------------------------------------ */
+
+.container-catagory{
+   margin-top: 600px;
+   width: 95%;
+   margin-left: 2.5%;
+   overflow: auto;
+}
+
+.container-headline{
+   text-align: center;
+   font: 40px bolder;
+   
+}
+
+.underline{
+   width: 120px;
+   height: 1px;
+   border: 1px solid;
+   margin: auto;
+   margin-top: 5px;
+   transform: scaleX(1);
+}
+
+.catag-head:hover .underline{
+   transform: scaleX(1.5);
+   color: gray
+}
+ 
+.catagory-all{
+   margin-top: 40px;
+   width: 22%;
+   float: left;
+   margin-left: 2%;
+   
+
+}
+
+.catagory-photo img{
+   width: 100%;
+   height: 300px;   
+}
+
+.catagory-p{
+   font-size: 18px;
+   color: gray;
+   margin-top: 10px;
+}
+.catog-text {
+   font-size: 25px;
+}
+
+.catog-line i{
+   font-size: 25px;
+   margin-left: 51%; 
+   color: rgb(218, 17, 17);
+   transform: scale(0);
+}
+
+.catagory-all:hover .catog-line i {
+   transform: scale(1);
+}
+
+/* ---------------Container Different ------------------------------------- */
+
+.container-different{
+   width: 90%; 
+   margin: auto;
+   margin-top: 40px; 
+   
+}
+
+.different-all{
+   width: 100%; 
+   overflow: auto;
+}
+.different-right{
+   float:left ;
+   width:  46.25%;
+   height: 300px;
+   background-color: rgb(158, 158, 187);
+    margin-left: 2.5%; 
+}
+
+.different-left{
+   float: left;
+   width:  46.25%;
+   height: 330px;
+   margin-left: 2.5%; 
+   margin-top: 5px;
+   overflow: auto;
+}
+.icon{
+   float: left;
+   font-size: 70px;
+}
+.header-part1{
+   font-size: 30px;
+   margin-top: 13px;
+   margin-left: 15px;
+}
+.lagoon{
+   font-size: 20px;
+}
+.parag-right{
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+
+.right-scrol-all{
+   overflow: auto;
+   margin-left: 430px;
+}
+
+.scrol-part{
+   width: 50px;
+   height: 1px;
+   background-color: black;
+   float: left;
+   margin-left: 20px;
+   margin-top: 70px;
+}
+
+
+.left-one{
+   width: 45%;
+   height: 100%;
+   float: left;  
+   margin-left: 5px; 
+  
+}
+
+
+.left-one-img{
+   width: 100%;
+   height: 290px;
+   float: left;
+   position: relative;
+   transform: scale(1 )
+}
+.left-one-img:hover{
+   transform: scale(1.1 );
+}
+
+.left-one-parag{
+   position: absolute;
+   font-size: 25px;
+   margin-left: 5px;
+   color: darkred;
+} 
+
+.left-two{
+   width: 45%;
+   margin-left: 5%; 
+  float: left; 
+  
+}
+
+
+.left-two-img{
+   width: 100%;
+   height: 290px;
+   float: left;
+   position: relative;
+   transform: scale(1 ); 
+}
+.left-two-img:hover{
+   transform: scale(1.1 );
+}
+/*--------------------------container service------------------------  */
+.container-service{
+   width: 90%; 
+   margin: auto;
+   margin-top: 40px; 
+}
+.service-all{
+   overflow: auto;
+   margin-left: 30px;
+}
+.service-face{
+   font-size: 30px;
+   text-align: center;
+   margin-left: 20px;
+   float: left;
+}
+.face2{
+   font-size: 18px;
+}
+.service-line{
+   height: 100px;
+   width: 1px;
+   background-color: black;
+   float: left;
+   margin: 0 30px ;   
+}
+/* .icon1:hover{
+   transform: skewX(360deg);
+   color: brown;
+   transition: .1s;
+} */
+.service-face i:hover{
+   transform: skewX(360deg);
+   color: brown;
+   transition: .1s;
+}
+
+.hr-boss{
+   width: 90%;
+   height: 1px;
+   margin: auto;
+   background-color: black;
+   margin-top: 40px;
+}
+/* ----------------- products ------------------------------------------ */
+
+.container-feat{
+   padding-top: 40px;
+   width: 95%;
+   /* height: 2000px; */
+   margin: auto;
+
+}
+
+.feat-headline{
+   text-align: center;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.feat-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+
+.parent-feat{
+   width: 95%;
+   overflow: auto;
+   height: 900px;
+   
+}
+.feat-all{
+/*    
+    border: 1px solid; */
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-top: 85px;
+}
+.feat-img{
+   position: relative;
+   float: left;
+   width: 350px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.feat-overly{
+   position: absolute;
+   float: left;
+   visibility: hidden; 
+   opacity: 0;
+   background-color: rgba(0, 0, 0, .5);
+   transition: .5s;
+   transform: scaleX(0);
+   height: 300px;
+   width: 355px;
+   
+  
+}
+
+.feat-all:hover .feat-overly {
+   visibility: visible;
+   opacity: .9;
+   transform: scalex(1);
+   background-image: url(../images/Blue-Lagoon-Dahab-1.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+
+}
+.feat1{
+   font-size: 20px;
+   text-decoration: none;
+   color: rgb(106, 156, 212);
+   text-align: center;
+} 
+.feat-hover i{
+   font-size: 30px; 
+   color: rgb(146, 164, 184); 
+   margin-left: 5px;
+   background-color: rgb(63, 84, 122);
+}
+.feat-hover  {
+   padding-top: 100px;
+   padding-left: 60px;
+   position: absolute;
+}
+
+.feat-parag{
+   font-size: 20px;
+   color: #fff;
+}
+
+.rest i {
+   color: yellow;
+   margin-top: 10px;
+   font-size: 20px;
+
+}
+
+.rest p {
+   font: 25px bold ;
+  
+}
